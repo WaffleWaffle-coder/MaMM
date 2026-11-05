@@ -1,0 +1,40 @@
+Foyer
+This is the foyer of the mansion. It is quite small, and there is a seemingly dead body on the floor. Better find out whodunit.
+
+There is a doorway leading to the dining room in the east. There is also a stairway leading up to the library.
+#
+Library
+ This is the library. It is quite large, and seems to contain many boring books on various topics. There is a librarian sitting behind the counter. Maybe you should try talking to her?
+
+Doorways lead east to the banquet room, and there is a staircase to go down to the foyer.
+#
+Bedroom
+This is the owner's bedroom. There is a dead laptop sitting on his desk as well as a safe hidden in the corner. If only you could get information out of the laptop... Alas, maybe it's for the best. It's probably illegal.
+
+There is a doorway leading north to the banquet room.
+#
+Kitchen
+This is the kitchen. There is annoyed looking chef washing some dishes at the sink. It is also very, very hot. Maybe that's why he's annoyed? Still, he might have information related to what happened to the dead guy.
+
+There is a doorway leading north to the dining room.
+#
+Banquet Room
+This is the banquet room. There's empty tables all over the room, but at least they have nice looking table clothes. It is very elegant looking with many flowers all over the place. You should totally take one for yourself. After all, there are tons in here.
+
+There is a doorway leading west to the library, east to the medical room, and south to a bedroom.
+#
+Medical Room
+This is the medical room. There is a doctor currently sleeping at a desk. He'd probably be annoyed if you woke him up, but you did go through all the effort into getting in here. Oh, and also because the owner died.
+
+There is a doorway leading west to the banquet room.
+#
+Dining Hall
+This is the dining hall. Nothing of real interest in here. No seriously. There's not even food out. What a scam.
+
+There is a doorway leading west to the foyer, east to the living room, and south to the kitchen.
+#
+Living Room
+This is the living room. There are some cozy looking couches, and a charger laying on one of the seats. Unfortunately, the couches are nowhere near as comfortable as they look. Why does everything in this building suck?
+
+There is a doorway leading west to the dining hall.
+#
