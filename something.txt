@@ -9,7 +9,7 @@ Library
 Doorways lead east to the banquet room, and there is a staircase to go down to the foyer.
 #
 Bedroom
-This is the owner's bedroom. There is a dead laptop sitting on his desk as well as a safe hidden in the corner. If only you could get information out of the laptop... Alas, maybe it's for the best. It's probably illegal.
+This is the owner's bedroom. It's quite extravagant. His room reminds you of medieval royalty. There is a a safe hidden in the corner. You really want to open up the safe, but it's probably illegal. He's also already dead, though.
 
 There is a doorway leading north to the banquet room.
 #

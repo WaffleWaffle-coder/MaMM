@@ -16,9 +16,9 @@ public class World {
 				"This is the dining hall. Nothing of real interest in here.");
 		Room livingRoom = new Room("Living Room",
 				"This is the living room. There are some cozy looking couches, and a charger laying on one of the seats.");
-		Item charger = new Item("charger");
+		Charger charger = new Charger();
 		Item laptop = new Item("laptop");
-		Item key = new Item("key");
+		Key key = new Key();
 		Item flowers = new Item("flowers");
 		Item body = new Item("body", true);
 		Item knife = new Item("knife");
@@ -44,7 +44,8 @@ public class World {
 		foyer.addItem(body);
 		library.addItem(book);
 		kitchen.addItem(knife);
-		System.out.println(foyer);
+		bedroom.addItem(new Safe());
+		medicalRoom.setLocked(true);
 		return foyer;
 	}
 	
