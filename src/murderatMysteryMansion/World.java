@@ -16,6 +16,7 @@ public class World {
 				"This is the dining hall. Nothing of real interest in here.");
 		Room livingRoom = new Room("Living Room",
 				"This is the living room. There are some cozy looking couches, and a charger laying on one of the seats.");
+		
 		Charger charger = new Charger();
 		Item laptop = new Item("laptop");
 		Key key = new Key();
@@ -23,6 +24,7 @@ public class World {
 		Item body = new Item("body", true);
 		Item knife = new Item("knife");
 		Item book = new Item("book");
+		
 		foyer.addExit(library, 4);
 		foyer.addExit(diningHall, 0);
 		library.addExit(foyer, 5);
@@ -37,6 +39,7 @@ public class World {
 		diningHall.addExit(kitchen, 3);
 		diningHall.addExit(foyer, 1);
 		livingRoom.addExit(diningHall, 1);
+		
 		livingRoom.addItem(charger);
 		bedroom.addItem(laptop);
 		library.addItem(key);
@@ -46,6 +49,8 @@ public class World {
 		kitchen.addItem(knife);
 		bedroom.addItem(new Safe());
 		medicalRoom.setLocked(true);
+		
+		kitchen.addNPC(new Chef());
 		return foyer;
 	}
 	

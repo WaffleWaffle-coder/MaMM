@@ -19,6 +19,7 @@ public class Room implements Serializable{
 	private Room[] arr;
 	private HashMap<String, Item>  items;
 	private static ArrayList<Room> rooms = new ArrayList<>();
+	private NPC npc;
 	
 	public Room(String n, String d)
 	{
@@ -100,4 +101,21 @@ public class Room implements Serializable{
 		return !items.isEmpty();
 	}
 	
+	public void addNPC(NPC npc) {
+		this.npc = npc;
+	}
+	public boolean hasNPC() {
+		if (npc != null) {
+			return true;
+		}
+		else
+			return false;
+	}
+	public String getNPCName() {
+		return npc.getName();
+	}
+
+	public NPC getNPC() {
+		return npc;
+	}
 }

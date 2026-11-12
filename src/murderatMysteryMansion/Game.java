@@ -431,6 +431,18 @@ public static void close() {
 	}
 		
 	}
+
+	public static void talk(String n) {
+		if (currentRoom.hasNPC()) {
+			if (n.equals(currentRoom.getNPCName())) {
+				currentRoom.getNPC().talk();
+			}
+			else 
+				Game.print("There's no one here with that name...");
+		}
+		else
+			Game.print("There's no one here to talk to...");
+	}
 	
 	public static void main(String[] args) {
 		currentRoom = World.buildWorld();
