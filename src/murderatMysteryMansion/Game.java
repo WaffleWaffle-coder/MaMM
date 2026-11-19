@@ -180,7 +180,7 @@ public class Game {
 		if (GameGUI.actions.length == 1) 
 			Game.print("Use what?");
 		else {
-		if (getItems().size() == 0 && currentRoom.hasItems()) {
+		if (getItems().size() == 0 && !currentRoom.hasItems()) {
 			Game.print("You don't have any items to use.");
 		}
 			else {
